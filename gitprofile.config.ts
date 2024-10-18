@@ -5,7 +5,7 @@ const CONFIG = {
   base: '/',
   projects: {
     github: {
-      display: true,
+      display: false,
       header: 'Github Projects',
       mode: 'automatic',
       automatic: {
@@ -26,18 +26,50 @@ const CONFIG = {
         {
           title: 'Ek Takar Khobor',
           description:
-            "Transformed the legacy frontend UI under the Ant Design system to create a more maintainable and scalable interface. Set up and configured a scalable and maintainable Next.js project with the necessary configurations. Implemented interactive reel feature and video stream player similar to YouTube Shorts, where I integrated a time-segmented video API with Tanstack React Query, enabling smooth video transitions and efficient handling of video streams. I focused on pixel-perfect implementation from Figma designs, ensuring the UI was responsive and compatible across various browsers and devices. Employed advanced optimization techniques, such as code splitting, lazy loading, and efficient asset management, which resulted in faster load times and improved user experience. Overall, this project improved the user interface and contributed significantly to the platform's functionality and performance.",
+            "Transformed the legacy frontend UI under the Ant Design system to create a more maintainable and scalable interface. Set up and configured a scalable and maintainable Next.js project with Typescript and the necessary configurations. Implemented interactive reel feature and video stream player similar to YouTube, where I integrated a time-segmented video API with Tanstack React Query, enabling smooth video transitions and efficient handling of video streams. Utilized Chart.js for creating data visualizations and interactive charts for the admin dashboard. I focused on pixel-perfect implementation from Figma designs, ensuring the UI was responsive and compatible across various browsers and devices. Employed advanced optimization techniques, such as code splitting, lazy loading, and efficient asset management, which resulted in faster load times and improved user experience. Overall, this project improved the user interface and contributed significantly to the platform's functionality and performance.",
           imageUrl:
             'https://www.ektakarkhobor.com/assets/images/logo.png',
           link: 'https://www.ektakarkhobor.com/',
         },
         {
-          title: 'Project Name',
+          title: 'Link Sharing App',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'A full-stack link sharing app for developers. Built with Next.js, Ant design, React DND, Tanstack React Query , NextAuth.js, MongoDb and many more.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://res.cloudinary.com/dnmpqcssy/image/upload/v1729254270/Screenshot_2024-10-18_at_6.24.16_PM_ymhypw.png',
+          link: 'https://link-sharing-app-f8dz.vercel.app',
+        },
+        {
+          title: 'Interactive Quiz Creation Platform',
+          description:
+            `A web app inspired by Google Forms for creating and managing custom quizzes. Features include- Quiz customization with multimedia answers, editable content, drag-and-drop question sorting, flexible answer configuration, supporting single or multiple answer types with point assignments, and the option to retake quizzes multiple times, complex state management across nested components, with a bottom-to-top approach to maintain local storage synchronization.`,
+          imageUrl:
+            'https://res.cloudinary.com/dnmpqcssy/image/upload/v1729254926/Screenshot_2024-10-18_at_6.35.08_PM_qhqejk.png',
+          link: 'https://cute-lily-530e5a.netlify.app/',
+        },
+        {
+          title: 'Simple Command-line (CLI) Task Management System',
+          description:
+            'This simple command-line (CLI) task management system is implemented in Python. Utilized OOP design principles: Command pattern for modular, extendable commands, Single Responsibility Principle for separation of concerns. Conducted partial integration testing for core functionalities.',
+          imageUrl:
+            '',
+          link: 'https://github.com/Tohid001/task_manager_cli',
+        },
+        {
+          title: 'RESTful E-commerce Backend Development',
+          description:
+            'An e-commerce RESTful backend using Node.js and express.js with essential tools for security and validation, utilizing Bcrypt  & JSON Web Token for secure authentication and Mongoose for MongoDB interactions. Nodemailer is used for email notifications.',
+          imageUrl:
+            '',
+          link: 'https://github.com/Tohid001/Sita-ecom/tree/master/backend',
+        },
+        {
+          title: 'Employee Task Management (under development)',
+          description:
+            'Helps task creation with estimated time and priority, actual time tracking for task stages, and task assignment functionality. Used Next.js, TypeScript, JSON Server (Deployed on Heroku), Formik(for complex form validation)',
+          imageUrl:
+            '',
+          link: 'https://github.com/Tohid001/Task-management-nextjs',
         },
       ],
     },
@@ -57,7 +89,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://res.cloudinary.com/dnmpqcssy/image/upload/v1729211402/Mohammad-Tohidul-Islam-FlowCV-Resume-20241014_1_yg8apc.pdf',
+      'https://res.cloudinary.com/dnmpqcssy/image/upload/v1729258811/my_resume_today_1_rxzoko.pdf',
   },
   skills: [
     'JavaScript',

@@ -70,10 +70,11 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
               </span>
             )}
           </h5>
-          <div className="mt-3 text-base-content text-opacity-60 font-mono">
-            {loading || !profile
+          <div className="mt-3 text-base-content text-opacity-60 font-mono text-start">
+            {/* {loading || !profile
               ? skeleton({ widthCls: 'w-48', heightCls: 'h-5' })
-              : profile.bio}
+              : profile.bio} */}
+              Hi there 👋! I am a Software Engineer based in Chittagong, Bangladesh with 2+ years of professional experience. Transitioning from a non-CSE background to a Software Engineer role, my journey in the tech world has been full of rapid learning and hands-on experience. My foundational strengths have been honed through a focused and passionate approach to learning and problem-solving. I am passionate about the entire software development life cycle (SDLC) and learning new technologies. My expertise in navigating complex codebases and implementing efficient backward-compatible solutions showcases my attention to detail and solution-oriented mindset. I am committed to continuous learning, team collaboration, and the swift delivery of high-quality solutions. Always Eager to contribute as a proactive 'can-do' team player in a dynamic software development environment
           </div>
         </div>
         {resumeFileUrl &&
