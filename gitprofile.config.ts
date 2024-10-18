@@ -140,6 +140,18 @@ const CONFIG = {
       from: '2018',
       to: '2024',
     },
+    {
+      institution: 'Govt. City College, Chittagong',
+      degree: 'Higher Secondary Certificate (HSC)',
+      from: '2014',
+      to: '2016',
+    },
+    {
+      institution: 'Govt. Muslim High School, Chittagong',
+      degree: 'Secondary Certificate (HSC)',
+      from: '2012',
+      to: '2014',
+    },
   ],
   publications: [
     // {
