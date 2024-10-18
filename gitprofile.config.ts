@@ -17,7 +17,7 @@ const CONFIG = {
         },
       },
       manual: {
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'],
+        projects: [],
       },
     },
     external: {
@@ -89,7 +89,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://res.cloudinary.com/dnmpqcssy/image/upload/v1729258811/my_resume_today_1_rxzoko.pdf',
+      'https://res.cloudinary.com/dnmpqcssy/image/upload/v1729264522/my_resume_today_1_1_xlg8be.pdf',
   },
   skills: [
     'JavaScript',
