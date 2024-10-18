@@ -9,11 +9,11 @@ const CONFIG = {
       header: 'Github Projects',
       mode: 'automatic',
       automatic: {
-        sortBy: 'stars',
+        sortBy: 'updated',
         limit: 8,
         exclude: {
           forks: false,
-          projects: [],
+          projects: ['Tohid001/SOLVED-JS-PROBLEMS','Tohid001/json-server-vercel','Tohid001/icons','Tohid001/Tohid001','Tohid001/trial','Tohid001/BFS-Projects','Tohid001/curriculum','Tohid001/warp-plus','Tohid001/had-a-little-bit-of-fun-with-git','Tohid001/JS-BASICS','Tohid001/ES6','Tohid001/A-simple-react-project','Tohid001/React-practice-2','Tohid001/BUILDING-REST-API','Tohid001/1st-experimental-chat-application','Tohid001/Mozaic-UI','Tohid001/portfolio','Tohid001/rtk-counter','Tohid001/json-server-vercel','Tohid001/usehooks-ts',],
         },
       },
       manual: {
@@ -223,11 +223,11 @@ const CONFIG = {
       '--rounded-btn': '3rem',
     },
   },
-  // footer: `Made with <a 
-  //     class="text-primary" href="https://github.com/arifszn/gitprofile"
-  //     target="_blank"
-  //     rel="noreferrer"
-  //   >GitProfile</a> and ❤️`,
+  footer: `Made with <a 
+      class="text-primary" href="https://github.com/Tohid001/Tohid001.github.io"
+      target="_blank"
+      rel="noreferrer"
+    >GitProfile</a> and ❤️`,
   // enablePWA: true,
 };
 
