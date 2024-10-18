@@ -24,12 +24,12 @@ const CONFIG = {
       header: 'My Projects',
       projects: [
         {
-          title: 'Project Name',
+          title: 'Ek Takar Khobor',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            "Transformed the legacy frontend UI under the Ant Design system to create a more maintainable and scalable interface. Set up and configured a scalable and maintainable Next.js project with the necessary configurations. Implemented interactive reel feature and video stream player similar to YouTube Shorts, where I integrated a time-segmented video API with Tanstack React Query, enabling smooth video transitions and efficient handling of video streams. I focused on pixel-perfect implementation from Figma designs, ensuring the UI was responsive and compatible across various browsers and devices. Employed advanced optimization techniques, such as code splitting, lazy loading, and efficient asset management, which resulted in faster load times and improved user experience. Overall, this project improved the user interface and contributed significantly to the platform's functionality and performance.",
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://www.ektakarkhobor.com/assets/images/logo.png',
+          link: 'https://www.ektakarkhobor.com/',
         },
         {
           title: 'Project Name',
