@@ -198,7 +198,7 @@ const CONFIG = {
     },
     {
       institution: 'Govt. Muslim High School, Chittagong',
-      degree: 'Secondary Certificate (HSC)',
+      degree: 'Secondary School Certificate (SSC)',
       from: '2012',
       to: '2014',
     },
