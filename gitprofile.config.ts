@@ -106,7 +106,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://res.cloudinary.com/dnmpqcssy/image/upload/v1729264522/my_resume_today_1_1_xlg8be.pdf',
+      'https://res.cloudinary.com/dnmpqcssy/image/upload/v1732217574/Mohammad-Tohidul-Islam-FE-Resume_bbacsl.pdf',
   },
   skills: [
     'JavaScript',
